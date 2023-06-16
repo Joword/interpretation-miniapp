@@ -1,2 +1,2 @@
 # interpretation-miniapp
-a miniapp about how to interpret some guidelines.
+a miniapp to show genetic variants interpretation result.
