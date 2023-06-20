@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
   "projectname": "ui",
-  "description": "a project of genetic variant about interpretation",
+  "description": "a project of genetic variant for interpretation",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,
