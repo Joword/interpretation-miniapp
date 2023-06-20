@@ -1,12 +1,17 @@
 package main
 
 import (
+	"os"
+
+	"zackpop/common"
+	"zackpop/routes"
+
 	"github.com/gin-gonic/gin"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/spf13/viper"
 )
 
-func initConfig()  {
+func InitConfig() {
 	workDir, _ := os.Getwd()
 	viper.SetConfigName("application")
 	viper.SetConfigType("yml")
@@ -17,13 +22,13 @@ func initConfig()  {
 	}
 }
 
-func main(){
+func main() {
 	InitConfig()
 	db := common.InitDB()
 	defer db.Close()
 
 	r := gin.Default()
-	r = CollectRoute(r)
+	r = routes.Routers(r)
 	port := viper.GetString("server.port")
 	if port != "" {
 		panic(r.Run(":" + port))
