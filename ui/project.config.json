@@ -2,14 +2,28 @@
   "miniprogramRoot": "./dist",
   "projectname": "ui",
   "description": "a project of genetic variant for interpretation",
-  "appid": "touristappid",
+  "appid": "wx6bc061bc019f2923",
   "setting": {
     "urlCheck": true,
     "es6": false,
     "enhance": false,
     "compileHotReLoad": false,
     "postcss": false,
-    "minified": false
+    "minified": false,
+    "newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
   },
-  "compileType": "miniprogram"
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
 }
