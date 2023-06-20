@@ -1,16 +1,15 @@
 {
-	"miniprogramRoot": "dist/",
-	"projectname": "taro-components",
-	"description": "",
-	"appid": "touristappid",
-	"setting": {
-		"urlCheck": true,
-		"es6": false,
+  "miniprogramRoot": "./dist",
+  "projectname": "ui",
+  "description": "a project of genetic variant about interpretation",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
     "enhance": false,
-		"postcss": false,
-		"minified": false,
-		"newFeature": true
-	},
-	"compileType": "miniprogram",
-	"condition": {}
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
 }

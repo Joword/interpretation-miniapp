@@ -1,7 +1,7 @@
 dist/
+deploy_versions/
 .temp/
-node_modules
+.rn_temp/
+node_modules/
 .DS_Store
-/.idea/workspace.xml
-yarn-error.log
-.rn_temp
+.swc

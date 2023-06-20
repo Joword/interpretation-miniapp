@@ -1,9 +1,9 @@
 module.exports = {
   env: {
-    NODE_ENV: JSON.stringify('development')
+    NODE_ENV: '"development"'
   },
   defineConstants: {
   },
-  weapp: {},
+  mini: {},
   h5: {}
 }
